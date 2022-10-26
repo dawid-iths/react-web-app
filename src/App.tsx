@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1>
           ITHS 
-        </p>
+        </h1>
         <ClickEventButton onClick={ClickMe}>Klicka!</ClickEventButton>
       </header>
     </div>
