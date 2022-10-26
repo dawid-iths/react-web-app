@@ -7,7 +7,7 @@ LogRocket.init('igsknz/logrocket-demo-iths');
 
 function App() {
   const ClickMe = () => {
-    console.log("Button Clicked");
+    console.log("log log log");
   };
   return (
     <div className="App">
