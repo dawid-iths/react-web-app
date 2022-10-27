@@ -15,7 +15,7 @@ function App() {
         <p>
           ITHS 
         </p>
-        <ClickEventButton onClick={ClickMe}>Klicka!</ClickEventButton>
+        <p>Oh noes, knappen är borta! :S</p>
       </header>
     </div>
   );
