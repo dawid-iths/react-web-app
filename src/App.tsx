@@ -3,8 +3,8 @@ import './App.css';
 import ClickEventButton from './components/button';
 import FragmentExample from './components/FragmentExample';
 import CdnImage from './components/ImageFromCDN';
-import LogRocket from 'logrocket';
-LogRocket.init('igsknz/logrocket-demo-iths');
+// import LogRocket from 'logrocket';
+// LogRocket.init('igsknz/logrocket-demo-iths');
 
 
 function App() {
