@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  iths-docker-app:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'
+    ports:
+      - '3000:80'
+    volumes:
+      - ./:/frontend
