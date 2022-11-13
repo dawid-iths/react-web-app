@@ -14,8 +14,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          ITHS 
+        School:  {process.env.REACT_APP_SCHOOL}
         </h1>
+        <p>
+        Envoronment: {process.env.NODE_ENV}
+        </p>
         {/* <FragmentExample></FragmentExample>
         <CdnImage imgUrl="https://res.cloudinary.com/ql-cdn-dev/image/upload/w_300,h_200,c_scale/MIT-Coding-Brain-01-press_0.jpg"></CdnImage>
   <ClickEventButton onClick={ClickMe}>Klicka!</ClickEventButton>*/}
