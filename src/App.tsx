@@ -7,6 +7,7 @@ function App() {
         <h1>
         School:  {process.env.REACT_APP_SCHOOL}
         </h1>
+        <hr />
         <p>
         Envoronment: {process.env.NODE_ENV}
         </p>
